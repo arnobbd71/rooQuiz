@@ -1,0 +1,22 @@
+Q2. 
+
+a) we can see from the spreadsheets that the relationship between A and B is not linear, but rather appears to be exponential. 
+   To find the function, we can fit an exponential curve to the data using regression analysis. It can be solved using MS Excel 
+   or googlesheets, we can perform exponential regression on the data by selecting the data range. Performing exponential regression 
+   on the data in the spreadsheet gives the following equation: f(A) = 1.5416e-174 * exp(0.0085 * A)
+
+
+b) Therefore, according to the function f(A) we found, the outputs for the given inputs would be approximately 0.197, 1.153, and 7.473, 
+   respectively.
+
+
+
+c) It is hard to determine the upper limit or maximum range before there will be collisions or overflow. However, we can make some observations. 
+   As, exponential functions tend to grow very quickly, so it is possible that the function f(A), may experience overflow or precision 
+   issues for very large input values. Additionally, if the function involves some kind of logarithm, square root, or other non-linear function, 
+   there may be numerical instability or rounding errors for certain input values.
+
+   Therefore, it is important to carefully evaluate the behavior of the function f(A) for a wide range of input values and to consider the potential 
+   numerical issues that may arise. If the function is expected to produce large output values for certain inputs, it may be necessary to use a higher 
+   precision data type or to use a different algorithm to evaluate the function in order to avoid overflow or numerical instability.
+
